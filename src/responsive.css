@@ -1,0 +1,15 @@
+@media (max-width: 480px) {
+  .filter_pane {
+    position: static;
+    min-height: 30vh;
+  }
+  .detail_banner {
+    padding: 2rem;
+    height: 60vh;
+  }
+  .detail_banner .text_holder {
+    background: rgba(34, 24, 24, 0.7);
+    color: white;
+    padding: 1rem;
+  }
+}

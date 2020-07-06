@@ -1,0 +1,113 @@
+body {
+  background-color: beige;
+}
+.__banner__ {
+  text-align: center;
+  padding: 15rem 0;
+  background-attachment: fixed;
+}
+.banner_text {
+  margin: 0.6rem;
+  font-size: 2rem;
+}
+.banner_btn {
+  font-size: larger;
+  margin: 1rem;
+  cursor: pointer;
+}
+.detail_banner {
+  text-align: center;
+  padding: 5rem;
+  height: 60vh;
+}
+.detail_banner .text_holder {
+  background: rgba(34, 24, 24, 0.7);
+  color: white;
+  padding: 1rem;
+}
+.text_holder {
+  background: rgba(34, 24, 24, 0.7);
+  color: white;
+  padding: 2rem;
+}
+.services {
+  background-color: rgba(129, 124, 124, 0.3);
+}
+.services_icons {
+  font-size: 50px !important;
+  color: grey;
+}
+.subTitle {
+  color: darkolivegreen;
+  text-align: center;
+  margin: 3rem;
+  text-decoration: underline;
+}
+.featured_text {
+  text-align: center;
+}
+.card a {
+  text-decoration: none;
+  width: fit-content;
+}
+.room-card {
+  position: relative;
+  background-color: rgba(126, 121, 121, 0.7);
+}
+.room-link {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  background-color: rgba(85, 83, 83, 0.6);
+  padding: 4.5rem 7rem;
+  display: none;
+}
+.room-type {
+  text-align: center;
+  text-transform: capitalize;
+  color: bisque;
+}
+.feature_btn {
+  border: 1px solid gray;
+  color: bisque;
+  cursor: pointer;
+}
+.feature_btn:hover {
+  background: bisque;
+  color: gray;
+}
+.price-tag {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  background-color: rgba(75, 70, 70, 0.6);
+  color: bisque;
+  padding: 0.7rem;
+  border: 1px solid grey;
+  border-radius: 0 0 0 25%;
+}
+.filter_pane {
+  background-color: beige;
+  position: fixed;
+  min-height: 100vh;
+  z-index: 10;
+}
+.form-group label {
+  font-weight: bold;
+}
+.foot {
+  text-align: center;
+  background-color: black;
+  color: beige;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+.bookroom_page {
+  background: url("./images/high-rise-building-hotel-night-9376.jpg");
+  padding: 10rem;
+}
+.bookroom_page .form {
+  background: rgba(122, 119, 119, 0.7);
+  color: antiquewhite;
+  padding: 0.8rem;
+}
